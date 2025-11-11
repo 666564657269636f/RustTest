@@ -5,6 +5,6 @@ COPY . .
 
 RUN cargo install --path .
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["RustTest"]
